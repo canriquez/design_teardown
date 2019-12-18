@@ -10,7 +10,6 @@ Variables
   --gray4: #ced4da;
   --gray0: #f8f9fa;
   --gray8: #343a40;
-
 }
 
 body {
@@ -23,8 +22,6 @@ header {
   flex-wrap: nowrap;
   justify-content: space-between;
   flex-direction: row;
-
-
   font-size: 22px;
   font-weight: 700;
 }
@@ -35,28 +32,24 @@ header {
   flex-wrap: nowrap;
   justify-content: space-between;
   background-color: var(--gray5);
-
 }
 
 .top-icon {
   flex-basis: auto;
   width: 140px;
   height: 140px;
-
   text-align: center;
   line-height: 140px;
   color: var(--gray9);
-
 }
 
 .logo,
 .search-icon {
-  width: 200px;
-  margin: 0px;
+  width: 100%;
+  margin: 0;
   text-align: center;
   line-height: 140px;
   background-color: var(--gray6);
-
 }
 
 .key-articles {
@@ -96,7 +89,6 @@ header {
 .sub-articles-1 {
   display: flex;
   flex-wrap: nowrap;
-
 }
 
 .article-box-med {
@@ -108,9 +100,7 @@ header {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
-
   margin-bottom: 30px;
-
 }
 
 .advertisement {
@@ -150,7 +140,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*  width: 50%; */
   flex-basis: 45%;
   height: auto;
   background-color: var(--gray7);
@@ -181,7 +170,6 @@ a {
 }
 
 .call-to-action-large {
-  /*  height: 100vh; */
   background: var(--gray7);
   display: flex;
   flex-direction: column;
@@ -219,7 +207,6 @@ a {
   margin: 2rem;
 }
 
-
 .article-box-small {
   display: flex;
   flex-basis: 50%;
@@ -249,14 +236,12 @@ a {
   background-color: var(--gray7);
 }
 
-
 .call-to-action-small div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
   height: auto;
-
   text-align: left;
   padding-left: 50px;
 }
@@ -281,23 +266,21 @@ a {
 }
 
 .guide-menu h2 {
-  margin-top: 0px;
+  margin-top: 0;
   font-weight: 700;
   background-color: var(--gray6);
 }
 
 .guide-menu p {
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 5px;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 11px;
-
 }
 
 .guide-menu .guide-list {
   flex-basis: 25%;
-
 }
 
 .guide-list {
@@ -305,11 +288,10 @@ a {
   margin-right: 20px;
 }
 
-
 .guide-list ul li {
   padding-top: 5px;
   padding-bottom: 15px;
-  font-size: 18x;
+  font-size: 18px;
 }
 
 .guide-list ul li a {
@@ -324,7 +306,7 @@ a {
 }
 
 .call-to-action-large .footnote {
-  margin: 0px;
+  margin: 0;
   font-size: 16px;
   font-weight: 300;
 }
@@ -334,7 +316,7 @@ a {
 }
 
 .call-to-action-large form input {
-  border: 0px;
+  border: 0;
 }
 
 .call-to-action-large form button {
@@ -346,7 +328,6 @@ a {
 
 footer {
   display: flex;
-  position: relative;
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
@@ -377,7 +358,6 @@ footer .link-menu {
   text-align: center;
 }
 
-
 footer .link-menu li {
   display: inline-block;
   margin-right: 1rem;
@@ -391,6 +371,7 @@ footer .link-menu li::before {
 }
 
 .sitemap {
+  position: relative;
   display: flex;
   max-width: 500px;
   margin-bottom: 4rem;
@@ -408,6 +389,6 @@ footer .link-menu li::before {
 
 #footer-image {
   position: absolute;
-  left: 300px;
-  bottom: 40px;
+  left: -250px;
+  bottom: 5px;
 }
