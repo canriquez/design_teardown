@@ -138,7 +138,7 @@ header {
 }
 
 .sub-articles-latest h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .sub-articles-latest p {
@@ -150,10 +150,12 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height: 50vh;
+ /*  width: 50%; */
+ flex-basis: 45%;
+  height: auto;
   background-color: var(--gray7);
   text-align: center;
+  margin-bottom: 200px;
 }
 
 .call-to-action div {
@@ -178,23 +180,25 @@ a {
   border-bottom: 4px solid var(--gray8);
 }
 
-#call-to-action-large {
-  height: 100vh;
+.call-to-action-large {
+ /*  height: 100vh; */
   background: var(--gray7);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  width: 100%;
 }
 
-#call-to-action-large p {
+.call-to-action-large p {
   max-width: 65%;
   font-size: 30px;
 }
 
-#call-to-action-large img {
+.call-to-action-large img {
   width: auto;
   height: auto;
+  margin-bottom: 50px;
 }
 
 .person-week {
@@ -237,4 +241,102 @@ a {
 
 .article-box-small h2 {
   font-size: 35px;
+}
+
+.call-to-action-small {
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--gray7);
+}
+
+
+.call-to-action-small div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: auto;
+
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .call-to-action-small div p {
+    margin-right: 80px;
+  }
+  .call-to-action-small div button {
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  .call-to-action-small img {
+      margin:1rem;
+  }
+
+  .guide-menu {
+    margin-top: 20px;  
+    display: flex;
+      flex-wrap: nowrap;
+  }
+
+  .guide-menu h2 {
+      margin-top:0px;
+      font-weight: 700;
+      background-color: var(--gray6);
+  }
+
+  .guide-menu p {
+    margin-top:0px;
+    margin-bottom: 5px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 11px;
+
+}
+  .guide-menu .guide-list {
+      flex-basis: 25%;
+  
+  }
+
+  .guide-list {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+
+.guide-list ul li {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 18x;
+}
+
+.guide-list ul li a{
+    text-decoration: underline;
+}
+
+.call-to-action-large form {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 11px;
+    padding: 10px;
+}
+
+.call-to-action-large .footnote {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.call-to-action-large p:last-child {
+    margin-bottom: 30px;
+}
+
+.call-to-action-large form input {
+    border:0px;
+}
+
+.call-to-action-large form button {
+    border-left:1px;
+    border-style: none none none solid;
+    border-color: var(--gray4);
+    height: 100%;
 }
