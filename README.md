@@ -20,12 +20,12 @@ Objective is to create a grayscale heat map of the website that indicates which 
 
 ## Getting Started
 
-**fork of clone the project and enjoy**
+**fork / clone the project and enjoy**
 
 
 To get a local copy up and running follow these simple example steps.
 
-### clone  / Foprk the site
+### clone  / Fork the repository.
 
 
 
@@ -48,10 +48,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse team
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
