@@ -1,63 +1,46 @@
-# Project Name
+# Design Teardown
 
-> One paragraph statement about the project.
+> This project consists of building a heatmap of the Smashing magazine website.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+Objective is to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy.
+
+[Original page](https://www.smashingmagazine.com/)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5
+- CSS3
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://canriquez.github.io/design_teardown/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**fork of clone the project and enjoy**
 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+### clone  / Foprk the site
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Daniel Sokil**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@s0kil](https://github.com/s0kil/)
 
-👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+👤 **Carlos Anriquez**
 
-## 🤝 Contributing
+- Github: [@canriquez](https://github.com/canriquez)
 
-Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
