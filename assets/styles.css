@@ -39,7 +39,6 @@ header {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-
   margin: 20px 50px;
   text-align: center;
   color: var(--gray9);
@@ -127,10 +126,6 @@ header {
 
 .sub-articles-latest article {
   padding: 1rem;
-}
-
-.sub-articles-latest h2 {
-  font-size: 30px;
 }
 
 .sub-articles-latest h2 {
