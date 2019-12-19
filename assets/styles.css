@@ -24,10 +24,10 @@ header {
   flex-direction: row;
   font-size: 22px;
   font-weight: 700;
+  background-color: var(--gray6);
 }
 
 .nav-bar {
-  flex-basis: 60%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -35,21 +35,30 @@ header {
 }
 
 .top-icon {
-  flex-basis: auto;
-  width: 140px;
-  height: 140px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 20px 50px;
   text-align: center;
-  line-height: 140px;
   color: var(--gray9);
+}
+
+.top-icon p {
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.top-icon h2 {
+  margin: 0;
 }
 
 .logo,
 .search-icon {
-  width: 100%;
-  margin: 0;
+  margin: auto;
   text-align: center;
   line-height: 140px;
-  background-color: var(--gray6);
 }
 
 .key-articles {
@@ -96,10 +105,7 @@ header {
   height: 475px;
   align-items: center;
   background-color: var(--gray0);
-  padding-bottom: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30px;
+  padding: 30px 20px 50px;
   margin-bottom: 30px;
 }
 
@@ -127,7 +133,7 @@ header {
   font-size: 30px;
 }
 
-.sub-articles-latest h1 {
+.sub-articles-latest h2 {
   font-size: 40px;
 }
 
@@ -191,8 +197,7 @@ a {
 
 .person-week {
   display: flex;
-  margin: 2rem;
-  margin-bottom: 6rem;
+  margin: 2rem 2rem 6rem;
 }
 
 .person-week div {
